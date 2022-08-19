@@ -78,6 +78,7 @@ func (c *Client) Dicts() ([]Dict, error) {
 	return dicts, err
 }
 
+
 // A Defn represents a definition.
 type Defn struct {
 	Dict Dict   // Dict where definition was found
